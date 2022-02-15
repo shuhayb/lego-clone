@@ -1,0 +1,78 @@
+@font-face {
+  font-family: regular;
+  src: url("../public//fonts/CeraPro/Cera_Pro_Regular.otf");
+}
+
+@font-face {
+  font-family: medium;
+  src: url("../public//fonts/CeraPro/Cera_Pro_Medium.otf");
+}
+
+@font-face {
+  font-family: x-large;
+  src: url("../public//fonts/CeraPro/Cera_Pro_Black.otf ");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: regular;
+  width: 100%;
+}
+
+.header {
+  background-color: #ffcf03;
+  color: black;
+  height: 80px;
+}
+
+.navBar {
+  list-style-type: none;
+  font-family: medium;
+  font-size: large;
+  display: inline-flex;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.promotion {
+  width: 200px;
+  height: 90px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.starImage {
+  height: 500px;
+  width: 1576px;
+  position: relative;
+  top: 0;
+  left: 0;
+  /* z-index: -1; */
+}
+
+.starWarsLogo {
+  height: 70px;
+  width: 160px;
+  position: absolute;
+  margin: 170px 80px;
+  z-index: 1;
+}
+
+.whiteHeader {
+  display: inline-flex;
+}
+
+.promotionTitle {
+  color: white;
+  width: 860px;
+  font-family: medium;
+  font-size: 50px;
+  position: absolute;
+  margin: 280px 80px;
+  z-index: 999;
+}
